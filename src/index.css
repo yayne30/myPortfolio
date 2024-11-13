@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:#323232
+}
+
+
+
+
+
+
+
+.bg-moving-gradient {
+  background:rgba(252, 252, 252, 0.979);
+  background-size: 400% 400%;
+  animation: gradientShift 30s ease infinite; /* Increased duration to make it move slower */
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Add this CSS to create a glowing effect */
+.glowing-ends::before,
+.glowing-ends::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  width: 10px;
+  background: linear-gradient(to right, rgba(30, 17, 154, 0.8), rgba(0, 183, 255, 0)); /* Blue gradient */
+  box-shadow: 0 0 10px rgba(208, 0, 255, 0.6), 0 0 20px rgba(0, 183, 255, 0.3); /* Glow effect */
+  pointer-events: none;
+  border-radius: 5px;
+}
+
+.glowing-ends::before {
+  left: 0;
+}
+
+.glowing-ends::after {
+  right: 0;
+}
+
+.slide {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.slide:hover {
+  transform: scale(1.03);
+  z-index: 10;
+}
+
+
+

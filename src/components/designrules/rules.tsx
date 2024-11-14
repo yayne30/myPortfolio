@@ -79,25 +79,25 @@ const Rules = () => {
 
         <div className=" lg:w-[50%] max-lg:w-[100vw] h-max flex  gap-20 max-sm:gap-7 justify-center">
           <div className="flex flex-col gap-14 max-lg:gap-7 ">
-            <div className="shadow-inner shadow-[#c8d5d6] gap-3 bg-[#dff2fb] rounded-lg w-[11rem] h-[11rem] max-lg:w-max max-lg:h-max max-sm:h-[7rem] max-sm:w-[10rem]  flex lg:flex-col max-lg:p-5 items-center justify-center ">
+            <div className="shadow-inner shadow-[#c8d5d6] gap-3 bg-[#dff2fb] rounded-lg w-[11rem] h-[11rem] max-lg:w-max max-lg:h-max max-sm:h-[7rem] max-sm:w-[8rem]  flex lg:flex-col max-lg:p-5 items-center justify-center ">
             <img className="h-14 w-14" src={ui}/>
-              <h1 className="font-bold text-[#242348]"> User Interface</h1>
+              <h1 className="font-bold text-[#242348] max-sm:text-[7pt]"> User Interface</h1>
             </div>
-            <div className="shadow-inner shadow-[#d7dbdb] gap-3 max-lg:w-max max-lg:h-max max-sm:h-[7rem] max-sm:w-[10rem]  rounded-lg w-[11rem] h-[11rem] flex lg:flex-col max-lg:p-5 items-center justify-center ">
+            <div className="shadow-inner shadow-[#d7dbdb] gap-3 max-lg:w-max max-lg:h-max max-sm:h-[7rem] max-sm:w-[8rem]  rounded-lg w-[11rem] h-[11rem] flex lg:flex-col max-lg:p-5 items-center justify-center ">
             <img className="h-14 w-14" src={ux}/>
-              <h1 className="font-bold text-[#242348]"> User Experience</h1>
+              <h1 className="font-bold text-[#242348] max-sm:text-[7pt]"> User Experience</h1>
             </div>
           </div>
           <div className="flex  flex-col gap-14 max-lg:gap-7  ">
-            <div className="shadow-inner shadow-[#bec8c9] gap-3 rounded-lg max-lg:w-max max-lg:h-max max-sm:h-[7rem] max-sm:w-[10rem] w-[11rem] h-[11rem]  mt-0 flex lg:flex-col max-lg:p-5 items-center justify-center ">
+            <div className="shadow-inner shadow-[#bec8c9] gap-3 rounded-lg max-lg:w-max max-lg:h-max max-sm:h-[7rem] max-sm:w-[8rem] w-[11rem] h-[11rem]  mt-0 flex lg:flex-col max-lg:p-5 items-center justify-center ">
             <img className="h-14 w-14" src={mobile}/>
 
-              <h1 className="font-bold text-[#242348]"> Mobile Design</h1>
+              <h1 className="font-bold text-[#242348] max-sm:text-[7pt]"> Mobile Design</h1>
             </div>
-            <div className="shadow-inner shadow-[#c8d5d6] max-lg:w-max max-lg:h-max max-sm:h-[7rem] max-sm:w-[10rem] gap-3 bg-[#dff2fb]  rounded-lg w-[11rem] h-[11rem] flex lg:flex-col max-lg:p-5 items-center justify-center  ">
+            <div className="shadow-inner shadow-[#c8d5d6] max-lg:w-max max-lg:h-max max-sm:h-[7rem] max-sm:w-[8rem] gap-3 bg-[#dff2fb]  rounded-lg w-[11rem] h-[11rem] flex lg:flex-col max-lg:p-5 items-center justify-center  ">
             <img className="h-14 w-14" src={desktop}/>
 
-              <h1 className="font-bold text-[#242348]"> Web Design</h1>
+              <h1 className="font-bold text-[#242348] max-sm:text-[7pt]"> Web Design</h1>
             </div>
           </div>
         </div>

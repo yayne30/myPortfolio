@@ -1,6 +1,6 @@
 import Lottie from "lottie-react";
 import animation from "../../assets/uiAnimation.json";
-import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaTelegram } from "react-icons/fa";
 
 const Hero2 = () => {
   return (
@@ -42,9 +42,10 @@ const Hero2 = () => {
 
       <div className="h-screen flex  text-[#323232] z-10 relative">
         <div className="flex flex-col gap-3 sm:w-[60%] pt-16 md:ml-24 max-md:ml-5">
-          <h1 className="self-start text-[13pt] font px-5 text-white py-1 rounded-lg bg-[#433ed5]">
-            Hi all! 😊 I’m
-          </h1>
+        <h1 className="self-start text-[13pt] font px-5 text-white py-1 rounded-lg bg-[#433ed5]">
+  Hi all! <span className="inline-block  emoji-wave">😊</span> I’m
+</h1>
+
           <h1 className="text-[45pt] max-lg:text-[30pt]  font-extrabold text-[#241fa4]">
             Eyerusalem Abate
           </h1>
@@ -70,7 +71,7 @@ const Hero2 = () => {
               />
             </a>
             <a href="https://twitter.com">
-              <FaTwitter
+              <FaTelegram
                 size={30}
                 className="text-[#311c9d] hover:text-[#ababab] transition-colors"
               />
@@ -81,6 +82,7 @@ const Hero2 = () => {
                 className="text-[#311c9d] hover:text-[#ababab] transition-colors"
               />
             </a>
+            <a></a>
           </div>
         </div>
 

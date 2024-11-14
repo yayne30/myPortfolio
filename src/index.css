@@ -79,3 +79,16 @@
 
 
 
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(50deg); }
+  40% { transform: rotate(-10deg); }
+  60% { transform: rotate(50deg); }
+  80% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.emoji-wave {
+  animation: wave 1s ease-in-out infinite;
+  display: inline-block;
+}

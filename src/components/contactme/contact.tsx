@@ -1,8 +1,10 @@
+import { FigmaLogoIcon } from "@radix-ui/react-icons";
 import profile from "../../assets/profile.png";
 const ContactMe = () => {
   return (
-    <div className="bg-slate-100 w-screen h-[60vh] flex max-md:flex-col px-10 py-5">
-      <div className="w-[60%] max-md:w-[100%]  flex gap-10 items-center ">
+    <div className="flex bg-slate-100 w-screen h-max pb-5 flex-col justify-center items-center">
+    <div className=" flex max-lg:flex-col max-lg:gap-7 px-10 py-5 justify-center items-center">
+      <div className="w-[60%] max-lg:w-[100%] max-lg:flex-col   flex gap-10 items-center ">
         <div className="h-[200px] w-[200px] rounded-full bg-[#d8d8d8] border-4 border-[#323232] ">
           <img
             className="h-[100%] w-[100%] rounded-full object-cover animate-wiggle"
@@ -10,7 +12,7 @@ const ContactMe = () => {
             alt="Profile"
           />
         </div>
-        <div className="w-[60%] flex flex-col gap-2">
+        <div className="w-[60%] max-lg:w-[100%] text-center  flex flex-col gap-2">
           <h1 className="text-[12pt] font-extrabold"> About me</h1>
         <p className="w-[100%]">
           I'm Eyerusalem Abate, a UI/UX Designer and Frontend Developer
@@ -21,23 +23,32 @@ const ContactMe = () => {
           </div>
        
       </div>
-      <div className="w-[40%] max-md:hidden ">
-        <div className="flex flex-col w-full  items-center gap-5  ">
-          <div className="flex flex-col gap-3 items-center">
-            <h1 className="font-extrabold text-[20pt]"> Contact Me </h1>
-          </div>
-          <input
-            type="email"
-            className="w-[60%] bg-transparent border-2 px-3 "
-            placeholder="abcdefg@gmail.com"
-          ></input>
-          <input
-            type="text"
-            className="w-[60%] h-[10rem] bg-transparent border-2"
-            
-          ></input>
-          <button className="border-2 px-7 py-1 bg-[#2c68ea] text-white"> Send </button>
+      <div className="w-[40%] flex flex-col max-lg:w-[100%] gap-3 items-center justify-center">
+        <h1>Feel Free to reach out</h1>
+        <div>
+
+        <div className="flex">
+        <FigmaLogoIcon width={30} height={30} className="text-[#3a3939] " />
+        <h1>eyerusabate@gmail.com</h1>
         </div>
+        <div className="flex">
+        <FigmaLogoIcon width={30} height={30} className="text-[#3a3939] " />
+        <h1>+251916295287</h1>
+        
+      </div>
+      <div className="flex">
+        <FigmaLogoIcon width={30} height={30} className="text-[#3a3939] " />
+        <h1>Telegram</h1>
+        
+      </div>
+
+        </div>
+        </div>
+        
+           
+      </div>
+      <div>
+        @copyright 2024
       </div>
     </div>
   );

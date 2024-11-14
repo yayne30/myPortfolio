@@ -41,7 +41,7 @@ const Hero2 = () => {
       <div className="bubble bubble-5 bg-blue-300 opacity-20 animate-float w-20 h-20 rounded-full absolute top-[2%] left-[5%] animate-delay-4s shadow-2xl"></div>
 
       <div className="h-screen flex  text-[#323232] z-10 relative">
-        <div className="flex flex-col gap-2 sm:w-[60%] pt-16 md:ml-24 max-md:ml-5">
+        <div className="flex flex-col gap-3 sm:w-[60%] pt-16 md:ml-24 max-md:ml-5">
           <h1 className="self-start text-[13pt] font px-5 text-white py-1 rounded-lg bg-[#433ed5]">
             Hi all! 😊 I’m
           </h1>

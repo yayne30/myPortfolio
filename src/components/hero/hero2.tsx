@@ -45,13 +45,13 @@ const Hero2 = () => {
           <h1 className="self-start text-[13pt] font px-5 text-white py-1 rounded-lg bg-[#433ed5]">
             Hi all! 😊 I’m
           </h1>
-          <h1 className="text-[45pt] max-lg:text-[30pt]  font-extrabold text-[#241fa4]">
+          <h1 className="text-[45pt] max-lg:text-[25pt]  font-extrabold text-[#241fa4]">
             Eyerusalem Abate
           </h1>
-          <h1 className="font-bold text-[20pt] max-lg:text-[18pt]">
+          <h1 className="font-bold text-[20pt] max-lg:text-[14pt]">
             <strong className="text-[#241fa4]">UI/UX designer</strong> & Frontend Developer
           </h1>
-          <p className="text-[14pt] font-[510] md:w-[80%] max-md:text-center max-md:text-[12pt]">
+          <p className="text-[14pt] font-[510] md:w-[80%] max-md:text-center max-md:text-[10pt] max-md:text-[450]">
             Passionate about creating user-centered experiences that solve
             real-world problems through intuitive and impactful design, focused
             on enhancing daily life and delivering lasting value.

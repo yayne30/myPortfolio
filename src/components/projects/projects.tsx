@@ -14,7 +14,7 @@ const Projects = () => {
     });
   }, []);
   return ( 
-    <div className="h-max pb-10 text-black bg-[#e9f2f6] rounded-t-lg w-[100vw] px-5">
+    <div className="h-max pb-10 text-black bg-[#e9f2f6] rounded-t-lg w-[100vw] px-5 mt-8">
       <div className="flex flex-col  items-center gap-5 mb-20 max-md:mb-5">
         <div className="flex flex-col items-center">
         <h1 className="font-extrabold text-[30pt] max-md:text-[20pt]"> Featured Projects </h1>

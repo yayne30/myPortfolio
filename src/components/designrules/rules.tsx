@@ -13,12 +13,12 @@ const Rules = () => {
 
   return (
     <div className="h-max pb-10 flex flex-col gap-10 px-5 mt-10">
-      <div className="flex flex-col items-center gap-5 mb-20 max-lg:mb-5" data-aos="fade-up">
+      <div className="flex flex-col items-center gap-5 mb-5 max-lg:mb-5" data-aos="fade-up">
         <div className="flex flex-col items-center">
-          <h1 className="font-extrabold text-[30pt] max-md:text-[20pt]">Featured Projects</h1>
-          <p className="font-light text-[16pt] max-md:text-[10pt] max-md:w-[100vw] text-center">
-            Showcasing My Work: <strong className="text-[#241fa4] font-extrabold">Innovative Solutions</strong> and <strong className="text-[#241fa4] font-extrabold">Creative Projects</strong>
-          </p>
+          <h1 className="font-extrabold text-[25pt] max-md:text-[20pt]">My Skills & Expertise</h1>
+          <p className="font-light text-[15pt] max-md:text-[10pt] max-md:w-[100vw] text-center">
+  Highlighting my proficiency in <strong className="text-[#241fa4] font-extrabold">Web Development</strong> & <strong className="text-[#241fa4] font-extrabold">UI/UX Design</strong>
+</p>
         </div>
         <div className="flex gap-4">
           <div className="w-[40vw] border-t-2 max-md:w-[40vw] border-[#636381]"></div>

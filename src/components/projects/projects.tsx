@@ -18,11 +18,11 @@ const Projects = () => {
     <div className="h-max pb-10 text-black bg-[#e9f2f6] rounded-t-lg w-[100vw] px-5 mt-8">
       <div className="flex flex-col  items-center gap-5 mb-20 max-md:mb-5">
         <div className="flex flex-col items-center">
-          <h1 className="font-extrabold text-[30pt] max-md:text-[20pt]">
+          <h1 className="font-extrabold text-[25pt] max-md:text-[20pt]">
             {" "}
             Featured Projects{" "}
           </h1>
-          <p className="font-light text-[16pt] max-md:text-[10pt] max-md:w-[100vw] text-center">
+          <p className="font-light text-[15pt] max-md:text-[10pt] max-md:w-[100vw] text-center">
             Showcasing My Work:{" "}
             <strong className="text-[#241fa4] font-extrabold">
               Innovative Solutions
@@ -57,7 +57,7 @@ const Projects = () => {
               seamless and effective learning experience, it simplifies
               communication and enhances the educational journey.
             </p>
-            <a  href="https://google.com" target="_blank" rel="noopener noreferrer" className="group hover:bg-blue-600 hover:scale-90 hover:shadow-lg hover:text-white transform transition-all duration-300 text-[12pt] max-md:text-[11pt] font-medium bg-[#4f84ff] pb-2 px-5 py-1 text-center rounded-lg flex items-center justify-center">
+            <a  href="https://www.figma.com/design/lSHw92fzrhRAn1jkl5bWnC/Askuala?node-id=0-1&t=JytyR5jpxbt0QhaS-1" target="_blank" rel="noopener noreferrer" className="group hover:bg-blue-600 hover:scale-90 hover:shadow-lg hover:text-white transform transition-all duration-300 text-[12pt] max-md:text-[11pt] font-medium bg-[#4f84ff] pb-2 px-5 py-1 text-center rounded-lg flex items-center justify-center">
   <Link1Icon className="mr-2 transition-transform duration-300 text-black group-hover:text-white group-hover:-translate-x-1" />
   Figma Design
 </a>
@@ -85,7 +85,7 @@ const Projects = () => {
               management and empowers bakery owners to make informed decisions.
             </p>
            
-            <a  href="https://google.com" target="_blank" rel="noopener noreferrer" className="group hover:bg-purple-600 hover:scale-90 hover:shadow-lg hover:text-white transform transition-all duration-300 text-[12pt] max-md:text-[11pt] font-medium bg-[#c984d6] pb-2 px-5 py-1 text-center rounded-lg flex items-center justify-center">
+            <a  href="https://www.figma.com/design/ZGvWNxUj0mwgcNUFIDX7bw/Jerry's-Bakery?t=Fr9jGb5vZaltsMv4-1" target="_blank" rel="noopener noreferrer" className="group hover:bg-purple-600 hover:scale-90 hover:shadow-lg hover:text-white transform transition-all duration-300 text-[12pt] max-md:text-[11pt] font-medium bg-[#c984d6] pb-2 px-5 py-1 text-center rounded-lg flex items-center justify-center">
   <Link1Icon className="mr-2 transition-transform duration-300 text-black group-hover:text-white group-hover:-translate-x-1" />
   Figma Design
 </a>
@@ -111,7 +111,7 @@ const Projects = () => {
               empowers shop owners to make informed business decisions.
             </p>
           
-<a  href="https://google.com" target="_blank" rel="noopener noreferrer"  className="group hover:bg-emerald-600 hover:scale-90 hover:shadow-lg hover:text-white transform transition-all duration-300 text-[12pt] max-md:text-[11pt] font-medium bg-[#43f3b8] pb-2 px-5 py-1 text-center rounded-lg flex items-center justify-center">
+<a  href="https://www.figma.com/design/NlXAAdTKoFEwoVruja02on/ShopOps?node-id=0-1&t=LZs1wVMyjTXnxgop-1" target="_blank" rel="noopener noreferrer"  className="group hover:bg-emerald-600 hover:scale-90 hover:shadow-lg hover:text-white transform transition-all duration-300 text-[12pt] max-md:text-[11pt] font-medium bg-[#43f3b8] pb-2 px-5 py-1 text-center rounded-lg flex items-center justify-center">
   <Link1Icon className="mr-2 transition-transform duration-300 text-black group-hover:text-white group-hover:-translate-x-1" />
   Figma Design
 </a>

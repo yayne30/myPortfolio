@@ -16,6 +16,7 @@ const LOGOS = [
   <FramerLogoIcon width={70} height={70} className="text-[#3a3939]" />,
   <SketchLogoIcon width={70} height={70} className=" text-[#3a3939]" />,
   <GitHubLogoIcon width={70} height={70} className="text-[#3a3939]" />,
+
 ];
 
 const ToolKit = () => {

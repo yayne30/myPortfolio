@@ -86,7 +86,7 @@ const Hero2 = () => {
           </div>
         </div>
 
-        <div className="w-[50%] h-full">
+        <div className="w-[50%] h-full max-md:w-[70%]">
           <Lottie className="h-full w-full  " animationData={animation} />
         </div>
       </div>

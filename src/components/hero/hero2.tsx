@@ -1,8 +1,17 @@
+import 'aos/dist/aos.css';  // Import AOS styles
+import AOS  from 'aos'
+import { useEffect } from 'react';
 import Lottie from "lottie-react";
 import animation from "../../assets/uiAnimation.json";
 import { FaGithub, FaLinkedin, FaInstagram, FaTelegram } from "react-icons/fa";
 
 const Hero2 = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,  // Animation duration in milliseconds
+      once: false       // Whether animation should happen only once
+    });
+  }, []);
   return (
     <div className="relative h-max mb-11 overflow-hidden w-[100vw]">
       <svg
@@ -86,8 +95,8 @@ const Hero2 = () => {
           </div>
         </div>
 
-        <div className="w-[50%] h-full max-md:w-[70%]">
-          <Lottie className="h-full w-full  " animationData={animation} />
+        <div className="w-[50%] h-full max-md:w-[70%] " >
+          <Lottie className="h-full w-full" data-aos="fade-up" animationData={animation} />
         </div>
       </div>
     </div>

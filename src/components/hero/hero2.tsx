@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaInstagram, FaTelegram } from "react-icons/fa";
 
 const Hero2 = () => {
   return (
-    <div className="relative h-screen overflow-hidden w-[100vw]">
+    <div className="relative h-max mb-4 overflow-hidden w-[100vw]">
       <svg
     className="absolute z-0 top-0 bg-transparent opacity-40"
     width="100%"
@@ -40,7 +40,7 @@ const Hero2 = () => {
       <div className="bubble bubble-4 bg-blue-100 opacity-50 animate-float w-18 h-18 rounded-full absolute top-[100px] left-[40%] animate-delay-3s shadow-sm"></div>
       <div className="bubble bubble-5 bg-blue-300 opacity-20 animate-float w-20 h-20 rounded-full absolute top-[2%] left-[5%] animate-delay-4s shadow-2xl"></div>
 
-      <div className="h-screen flex max-md:flex-col max-md:items-center text-[#323232] z-10 relative">
+      <div className="h-max flex max-md:flex-col max-md:items-center text-[#323232] z-10 relative">
         <div className="flex flex-col gap-3 sm:w-[60%] pt-16 md:ml-24 max-md:ml-5">
         <h1 className="self-start text-[13pt] font px-5 text-white py-1 rounded-lg bg-[#433ed5]">
   Hi all! <span className="inline-block  emoji-wave">😊</span> I’m
@@ -86,7 +86,7 @@ const Hero2 = () => {
           </div>
         </div>
 
-        <div className="w-[50%] h-[80%]">
+        <div className="w-[50%] h-full">
           <Lottie className="h-full w-full  " animationData={animation} />
         </div>
       </div>

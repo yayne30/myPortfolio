@@ -2,7 +2,7 @@ import logo from '../../assets/logo.png'
 const Header = () => {
   return (
    
-    <div className="flex py-3 items-center justify-between m-2 rounded-lg md:border-b-2 bg-[#f7f4f4] shadow-inner md:shadow-[#dde1e3]">
+    <div className="flex py-3 w-[100vw] items-center justify-between my-2 mx-1 rounded-lg md:border-b-2 bg-[#f7f4f4] shadow-inner md:shadow-[#dde1e3] max-md:fixed max-md:bg-transparent">
     <img className='h-[25pt] px-10' src={logo}/>
       
   <nav className="flex justify-center space-x-3 text-[11pt]  font-bold max-sm:hidden max-md:space-x-5">

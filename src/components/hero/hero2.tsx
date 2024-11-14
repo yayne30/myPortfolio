@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Hero2 = () => {
   return (
-    <div className="relative h-screen overflow-hidden">
+    <div className="relative h-screen overflow-hidden w-[100vw]">
       <svg
     className="absolute z-0 top-0 bg-transparent opacity-40"
     width="100%"
@@ -41,7 +41,7 @@ const Hero2 = () => {
       <div className="bubble bubble-5 bg-blue-300 opacity-20 animate-float w-20 h-20 rounded-full absolute top-[2%] left-[5%] animate-delay-4s shadow-2xl"></div>
 
       <div className="h-screen flex  text-[#323232] z-10 relative">
-        <div className="flex flex-col gap-2 sm:w-[60%] pt-16 md:ml-24 max-md:ml-5 ">
+        <div className="flex flex-col gap-2 sm:w-[60%] pt-16 md:ml-24 max-md:ml-5 max-md:text-center ">
           <h1 className="self-start text-[13pt] font px-5 text-white py-1 rounded-lg bg-[#433ed5]">
             Hi all! 😊 I’m
           </h1>

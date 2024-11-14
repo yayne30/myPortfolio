@@ -4,7 +4,7 @@ import Lottie  from "lottie-react";
 import animation from "../../assets/uiAnimation.json"
 const Hero = () => {
   return (
-    <div className="relative">
+    <div className="relative w-[100vw]">
       <div className="absolute top-[20%] left-[10%] rounded-full h-[100px] w-[100px] bg-[#323232] opacity-10 shadow-xl shadow-[#323232]"></div>
       <div className="absolute top-[20%] left-[70%] rounded-full h-[100px] w-[100px] bg-[#323232] opacity-10 shadow-2xl shadow-[#323232]"></div>
       <div className="absolute top-[50%] left-[25%] rounded-full h-[80px] w-[80px] bg-[#323232] opacity-20 shadow-xl shadow-[#323232]"></div>

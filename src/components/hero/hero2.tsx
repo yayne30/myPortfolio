@@ -67,25 +67,25 @@ const Hero2 = () => {
             on enhancing daily life and delivering lasting value.
           </p>
           <div className="flex mt-2 gap-4 ml-28 max-lg:ml-6">
-            <a href="https://github.com">
+            <a href="https://github.com/yayne30" target="_blank" rel="noopener noreferrer">
               <FaGithub
                 size={30}
                 className="text-[#311c9d] hover:text-[#ababab] transition-colors"
               />
             </a>
-            <a href="https://linkedin.com">
+            <a href="https://www.linkedin.com/in/eyerusalem-abate/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin
                 size={30}
                 className="text-[#311c9d] hover:text-[#ababab] transition-colors"
               />
             </a>
-            <a href="https://twitter.com">
+            <a href="https://t.me/sost21" target="_blank" rel="noopener noreferrer">
               <FaTelegram
                 size={30}
                 className="text-[#311c9d] hover:text-[#ababab] transition-colors"
               />
             </a>
-            <a href="https://instagram.com">
+            <a href="https://instagram.com/trsit21" target="_blank" rel="noopener noreferrer">
               <FaInstagram
                 size={30}
                 className="text-[#311c9d] hover:text-[#ababab] transition-colors"

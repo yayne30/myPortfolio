@@ -31,7 +31,7 @@ const Rules = () => {
               {" "}
               What my design skills include
             </h1>
-            <p className="text-[12pt] text-[#565c64] font-[550] max-lg:text-[10pt]">
+            <p className="text-[12pt] text-[#565c64] font-[550] max-lg:text-[10pt] pr-11">
               {" "}
               I believe that the best designs are often the simplest ones. A
               simple design reduces cognitive overload and improves the user
@@ -77,7 +77,7 @@ const Rules = () => {
           </div>
         </div>
 
-        <div className=" lg:w-[50%] max-lg:w-[100vw] h-max flex  gap-20 max-sm:gap-7 justify-center">
+        <div className=" lg:w-[50%] max-lg:w-[100vw] h-max flex  gap-20 max-sm:gap-7 ">
           <div className="flex flex-col gap-14 max-lg:gap-7 ">
             <div className="shadow-inner shadow-[#c8d5d6] gap-3 bg-[#dff2fb] rounded-lg w-[11rem] h-[11rem] max-lg:w-max max-lg:h-max max-sm:h-[7rem] max-sm:w-[8rem]  flex lg:flex-col max-lg:p-5 items-center justify-center ">
             <img className="h-14 w-14" src={ui}/>

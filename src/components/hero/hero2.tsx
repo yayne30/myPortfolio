@@ -40,7 +40,7 @@ const Hero2 = () => {
       <div className="bubble bubble-4 bg-blue-100 opacity-50 animate-float w-18 h-18 rounded-full absolute top-[100px] left-[40%] animate-delay-3s shadow-sm"></div>
       <div className="bubble bubble-5 bg-blue-300 opacity-20 animate-float w-20 h-20 rounded-full absolute top-[2%] left-[5%] animate-delay-4s shadow-2xl"></div>
 
-      <div className="h-screen flex  text-[#323232] z-10 relative">
+      <div className="h-screen flex max-md:flex-col max-md:items-center text-[#323232] z-10 relative">
         <div className="flex flex-col gap-3 sm:w-[60%] pt-16 md:ml-24 max-md:ml-5">
         <h1 className="self-start text-[13pt] font px-5 text-white py-1 rounded-lg bg-[#433ed5]">
   Hi all! <span className="inline-block  emoji-wave">😊</span> I’m
@@ -87,7 +87,7 @@ const Hero2 = () => {
         </div>
 
         <div className="w-[50%] h-[80%]">
-          <Lottie className="h-full w-full max-sm:hidden" animationData={animation} />
+          <Lottie className="h-full w-full  " animationData={animation} />
         </div>
       </div>
     </div>

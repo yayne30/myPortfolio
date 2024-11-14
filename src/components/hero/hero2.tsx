@@ -51,7 +51,7 @@ const Hero2 = () => {
           <h1 className="font-bold text-[20pt] max-lg:text-[18pt]">
             <strong className="text-[#241fa4]">UI/UX designer</strong> & Frontend Developer
           </h1>
-          <p className="text-[14pt] font-[510] md:w-[80%] max-md:text-center max-md:text-[450]">
+          <p className="text-[14pt] font-[510] md:w-[80%] max-md:w-[100%] max-md:text-[450]">
             Passionate about creating user-centered experiences that solve
             real-world problems through intuitive and impactful design, focused
             on enhancing daily life and delivering lasting value.

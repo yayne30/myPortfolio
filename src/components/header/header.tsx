@@ -3,7 +3,7 @@ import profile from "../../assets/profile.png";
 const Header = () => {
   return (
    
-    <div className="flex pl-3 pt-1 w-[100vw] items-center justify-between my-2 mx-1 rounded-lg md:border-b-2 bg-[#f7f4f4] shadow-inner md:shadow-[#dde1e3] ">
+    <div className="flex pl-3 pt-1 w-[100vw]  items-center justify-between my-2 mx-1 rounded-lg md:border-b-2 bg-[#f7f4f4] shadow-inner md:shadow-[#dde1e3] ">
       <div className='flex items-center justify-center gap-2 '>
 
      <div className="h-[50px] w-[50px] rounded-full bg-[#d8d8d8] border-2 border-[#323232] ">

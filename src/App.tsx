@@ -7,6 +7,7 @@ import Projects from './components/projects/projects';
 import Rules from './components/designrules/rules';
 import ToolKit from './components/toolkit/toolkit';
 import ContactMe from './components/contactme/contact';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   useEffect(() => {
@@ -18,6 +19,7 @@ function App() {
   
   return (
     <div className='bg-moving-gradient'>
+      <Analytics />
       <Header />
       <div>
         <section id='about' data-aos="fade-up">
